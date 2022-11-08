@@ -24,8 +24,8 @@ ScreenGui.Parent = game.CoreGui
 
 ImageLabel.Parent = ScreenGui
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel.Size = UDim2.new(0, 1321, 0, 810)
+ImageLabel.Size = UDim2.new(0, 1920, 0, 1080)
 ImageLabel.Image = "http://www.roblox.com/asset/?id=8694934460"
 ImageLabel.Active = true
-ImageLabel.Draggable = true
+ImageLabel.Draggable = false
 end)
